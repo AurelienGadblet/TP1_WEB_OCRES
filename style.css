@@ -10,6 +10,13 @@
 	font-family: cursive;
 }
 
+.bloc2
+{
+	width: 90vw;
+	margin: auto;
+	font-family: cursive;
+}
+
 .gauche
 {
 	grid-column-start:1;
@@ -65,4 +72,63 @@
 .soustitre
 {
 	color: #62AAA7;
+}
+
+.barredenav
+{
+	background-color: #363636;
+	color: #F6F6F6;
+	margin:0px;
+	height: 3em;
+}
+
+.boutonsnav
+{
+	background-color: #363636;
+	color:#F6F6F6;
+	border:none;
+	height: 3em;
+	border-radius: 5px;
+}
+
+.boutonsnav:hover
+{
+	color:#62AAA7;
+	border:1px solid;
+	border-color: #62AAA7;
+}
+
+.marge
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	min-height: 80vh;
+}
+
+.corps
+{
+	margin:0px;
+}
+
+.boutoncv
+{
+	background-color: #F6F6F6;
+	border-radius: 5px;
+	width:90%;
+}
+
+.boutoncv:hover
+{
+	cursor: pointer;
+	background-color: #E6E6E6;
+}
+
+.basdepage
+{
+	font-size: smaller;
+	color: #F6F6F6;
+	background-color: #363636;
+	margin:0px;
+	width:100%;
+	height: 12%;
 }
